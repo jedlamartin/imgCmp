@@ -3,7 +3,6 @@
 
 #include <cstring>
 #include <iostream>
-#include <stdexcept>
 
 int main(int argc, const char** argv) {
     if(argc != 3) {
@@ -56,7 +55,7 @@ int main(int argc, const char** argv) {
                   << " bytes per pixel)" << std::endl;
         ilDeleteImages(1, &imageID1);
         ilDeleteImages(1, &imageID2);
-        return 1;
+        return -1;
     }
 
     ILuint size = width1 * height1 * bpp1;
