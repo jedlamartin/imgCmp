@@ -14,7 +14,7 @@ This project uses C++ and CMake. To build it, ensure you have a C++ compiler and
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/jedlamartin/imgCmp](https://github.com/jedlamartin/imgCmp)
+    git clone https://github.com/jedlamartin/imgCmp
     cd imgCmp
     ```
 
